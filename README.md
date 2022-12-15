@@ -47,8 +47,10 @@ Sensor de presencia:
 
 ![Sensor de presencia](https://github.com/rsanchez2021/Image/blob/main/sensor_movimiento.gif)
 ```bash
-ñaih
-ahv
+pi@raspberrypi:~/p8-fuerza-presencia-rsanchez2021 $ python3 presencia.py 
+Movimiento detectado
+Movimiento detectado
+Movimiento detectado
 ```
 
 Sensor de presióm:
@@ -56,9 +58,25 @@ Sensor de presióm:
 ![Sensor de presiñon](https://github.com/rsanchez2021/Image/blob/main/sensor_presion.gif)
 
 ```bash
-paoj
-poj
+pi@raspberrypi:~/p8-fuerza-presencia-rsanchez2021 $ python fuerza.py
+No hay presión
+No hay presión
+No hay presión
+Presión detectada
+No hay presión
+Presión detectada
+Presión detectada
+No hay presión
+No hay presión
 ```
 
+Sistema inteligente:
+```bash
+pi@raspberrypi:~/p8-fuerza-presencia-rsanchez2021 $ python3 sistinteligente.py 
+Detectando personas...
+Movimiento detectado
+Detectando personas...
+Detectando personas...
+```
 
     
