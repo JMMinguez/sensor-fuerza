@@ -10,14 +10,14 @@ import time
 
 
 #establecer pines
-PRESENCIA = 12
+PRESION = 12
 TIME = 0.5
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(PRESENCIA, GPIO.IN)
+GPIO.setup(PRESION, GPIO.IN)
 
 while True:
-    if (GPIO.input(PRESENCIA)==0):
+    if (GPIO.input(PRESION)==0):
         print ("No hay presión")
-    if (GPIO.input(PRESENCIA)==1):
+    if (GPIO.input(PRESION)==1):
         print ("Presión detectada")
     time.sleep(TIME)
