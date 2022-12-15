@@ -15,9 +15,9 @@ Finalmente, los componenetes utilizados son:
 - Resistencia 220Ω
 
 ## Circuito
-El esquema del circuito final quedaría de la siguiente manera:
+Tener en cuenta que el sensor de movimiento no es el utilizado en la práctica. El esquema del circuito final quedaría de la siguiente manera:
 
-AÑADIR FOTO
+![Circuito p8 sensores](https://github.com/rsanchez2021/Image/blob/main/p8_sensores.png)
 
 
 ## Ejercicios
