@@ -28,7 +28,6 @@ def callbackPresencia (canal):
     segundos = 0 #comenzamos por 0 para que sean 30 segundos exactos
     while segundos < 30:
         if (GPIO.input(PRESENCIA)==0):
-            print(segundos)
             segundos = segundos + TIME
             time.sleep(TIME)
         if (GPIO.input(PRESENCIA)==1):
