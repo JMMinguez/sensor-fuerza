@@ -1,8 +1,8 @@
 #------------------------------
-#Ejercicio: Práctica p7 sensores y actuadores --> Sensor humedad
+#Ejercicio: Práctica p8 sensores y actuadores --> Sensor fuerza y presencia
 #Autores: Jorge Martín y Rebeca Sánchez
-#Fecha límite de entrega: 7/12/22
-#Objetivo: leer los valores del módulo FC-28
+#Fecha límite de entrega: 15/12/22
+#Objetivo: detectar movimiento con el sensor de presencia
 #------------------------------
 #!/usr/bin/python
 import RPi.GPIO as GPIO
